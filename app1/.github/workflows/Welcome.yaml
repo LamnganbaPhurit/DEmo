@@ -3,7 +3,7 @@ on: push
 
 jobs:
   namste:
-  runs-on: ubuntu-latest;
-  steps:
-    -name: Greet the user
-    run: echo "Hello user"
+    runs-on: ubuntu-latest;
+    steps:
+      - name: Greet the user
+        run: echo "Hello user"
